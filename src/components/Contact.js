@@ -22,8 +22,12 @@ export default function Contact() {
     setForm({ name: "", email: "", message: "" });
   };
   return (
-    <div className="min-h-screen w-full bg-gradient-to-r from-white to-gray-50 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div
+      id="contact"
+      // className="min-h-screen w-full bg-gradient-to-r from-white to-gray-50"
+      className="w-full bg-blue-200 py-20 px-4 sm:px-6 lg:px-8"
+    >
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 via-purple-600 to-teal-400 bg-clip-text text-transparent">
             Contact Me
@@ -94,7 +98,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-gradient-to-r from-indigo-400 via-purple-700 to-teal-400 text-white font-semibold"
+              className="w-full px-6 py-3 bg-gradient-to-r from-indigo-400 via-purple-700 to-teal-400 text-white font-semibold rounded-xl"
             >
               Submit
             </button>

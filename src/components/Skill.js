@@ -33,14 +33,18 @@ export default function Skills() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-r from-white to-gray-60 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div
+      id="skills"
+      // className="min-h-screen w-full bg-gradient-to-r from-white to-gray-60 py-16"
+      className="w-full bg-green-200 py-20 px-4 sm:px-6 lg:px-8"
+    >
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 via-purple-600 to-teal-600 bg-clip-text text-transparent">
             My Skills
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            A comprenhensive overovew of my technical expertise and professional
+            A comprenhensive overview of my technical expertise and professional
             capablilties.
           </p>
         </div>

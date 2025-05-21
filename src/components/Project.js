@@ -6,35 +6,50 @@ export default function Project() {
     {
       id: 1,
       title: "Railway Reservation System",
-      description: "A simple webstie tomanage ticket booking for passenger.",
-      link: "https://example.com",
+      description:
+        "Developed a Simple User Friendly Website for Book/Reserve Train Ticket, Can View the Train Schedules, Can list out Trains.",
+      link: "https://github.com/VivekMak1401/BookMyRail",
       tech: ["HTML", "CSS", "JavaScript", "PHP", "Notepad++"],
     },
     {
       id: 2,
       title: "Break the Brick Game",
-      description: "A simple webstie tomanage ticket booking for passenger.",
-      link: "https://example.com",
+      description:
+        "Break the Brick is a simple 2D arcade game implemented using Java Swing. The game involves controlling a paddle to bounce a ball and break a series of bricks arranged in a grid.",
+      link: "https://github.com/VivekMak1401/Break-the-Brick",
       tech: ["HTML", "CSS", "JavaScript", "PHP", "Notepad++"],
     },
     {
       id: 3,
       title: "Course Management System",
-      description: "A simple webstie tomanage ticket booking for passenger.",
-      link: "https://example.com",
+      description:
+        "A system to enroll in various courses. the data should stores in database. Admin can mange the database and backend and can registered courses of each user.",
+      link: "https://github.com/VivekMak1401/Course-Management-System",
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "Notepad++"],
+    },
+    {
+      id: 4,
+      title: "Chat Widget - A Mental Health Assessment",
+      description:
+        "A simple extension to easily integrate with any websites. used to assess employee for their mental health assessment throught predtermined set of question.",
+      link: "https://github.com/VivekMak1401/Course-Management-System",
       tech: ["HTML", "CSS", "JavaScript", "PHP", "Notepad++"],
     },
   ];
   return (
     <>
-      <div className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+      <div
+        id="projects"
+        // className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50 bg-red-200"
+        className="w-full bg-red-200 py-20 px-4 sm:px-6 lg:px-8"
+      >
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 via-purple-600 to-teal-400 bg-clip-text text-transparent">
               My Projects
             </h2>
             <p className="mt-4 text-xl text-center text-gray-600 font-semibold">
-              A showcase of all projects that i have made
+              A showcase of all projects that i have build.
             </p>
           </div>
 
